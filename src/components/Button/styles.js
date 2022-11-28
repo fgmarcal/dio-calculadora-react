@@ -11,6 +11,8 @@ export const ButtonContainer = styled.button`
 
     &:hover {
         opacity: 0.6;
+        border: 1px solid #000000;
+        cursor: pointer;
     }
 `
 

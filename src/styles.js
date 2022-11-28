@@ -14,6 +14,7 @@ export const Container = styled.div`
 export const Content = styled.div`
     background-color: #FFFFFF;
     width: 50%;
+    border-radius: 100px 100px 100px 100px;
 `
 
 export const Row = styled.div`
@@ -29,4 +30,16 @@ export const Column = styled.div`
     justify-content: space-between;
     align-items: center;
     background-color: #00aaff;
+    color: #00aaff;
+    border-radius: 100px 100px 0 0;
+`
+
+export const ColumnBottom = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00aaff;
+    color: #00aaff;
+    border-radius: 0 0 100px 100px;
 `
