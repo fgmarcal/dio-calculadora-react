@@ -28,4 +28,5 @@ export const Column = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #00aaff;
 `
